@@ -1,0 +1,13 @@
+F:\GrandCircus\C#\MovieListLab\MovieListLab\bin\Debug\netcoreapp3.1\MovieListLab.exe
+F:\GrandCircus\C#\MovieListLab\MovieListLab\bin\Debug\netcoreapp3.1\MovieListLab.deps.json
+F:\GrandCircus\C#\MovieListLab\MovieListLab\bin\Debug\netcoreapp3.1\MovieListLab.runtimeconfig.json
+F:\GrandCircus\C#\MovieListLab\MovieListLab\bin\Debug\netcoreapp3.1\MovieListLab.runtimeconfig.dev.json
+F:\GrandCircus\C#\MovieListLab\MovieListLab\bin\Debug\netcoreapp3.1\MovieListLab.dll
+F:\GrandCircus\C#\MovieListLab\MovieListLab\bin\Debug\netcoreapp3.1\MovieListLab.pdb
+F:\GrandCircus\C#\MovieListLab\MovieListLab\obj\Debug\netcoreapp3.1\MovieListLab.csprojAssemblyReference.cache
+F:\GrandCircus\C#\MovieListLab\MovieListLab\obj\Debug\netcoreapp3.1\MovieListLab.AssemblyInfoInputs.cache
+F:\GrandCircus\C#\MovieListLab\MovieListLab\obj\Debug\netcoreapp3.1\MovieListLab.AssemblyInfo.cs
+F:\GrandCircus\C#\MovieListLab\MovieListLab\obj\Debug\netcoreapp3.1\MovieListLab.csproj.CoreCompileInputs.cache
+F:\GrandCircus\C#\MovieListLab\MovieListLab\obj\Debug\netcoreapp3.1\MovieListLab.dll
+F:\GrandCircus\C#\MovieListLab\MovieListLab\obj\Debug\netcoreapp3.1\MovieListLab.pdb
+F:\GrandCircus\C#\MovieListLab\MovieListLab\obj\Debug\netcoreapp3.1\MovieListLab.genruntimeconfig.cache
