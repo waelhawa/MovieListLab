@@ -53,32 +53,7 @@ namespace MovieListLab
                 checker = true;
                 Console.Write(message);
                 text = Console.ReadLine().Trim().ToLower();
-                if (!String.IsNullOrEmpty(text) || !String.IsNullOrWhiteSpace(text))
-                {
-                    foreach (char letter in text.ToCharArray())
-                    {
-                        if (Char.IsLetterOrDigit(letter) || Char.IsWhiteSpace(letter))
-                        {
-
-                        }
-                        else
-                        {
-                            if (checker)
-                            {
-                                Console.WriteLine("Entry can't have special character");
-                                checker = false;
-                            }
-                        }
-                    }
-                }
-                else
-                {
-                    if (checker)
-                    {
-                        Console.WriteLine("Entry can't be blank.");
-                        checker = false;
-                    }
-                }
+                checker = Validation(text);
                 if (checker)
                 {
                     return text;
@@ -145,6 +120,31 @@ namespace MovieListLab
                 }
             }
         } //end Verification
+
+        public static bool Validation (string text)
+        {
+            if (!String.IsNullOrEmpty(text) || !String.IsNullOrWhiteSpace(text))
+            {
+                foreach (char letter in text.ToCharArray())
+                {
+                    if (Char.IsLetterOrDigit(letter) || Char.IsWhiteSpace(letter))
+                    {
+
+                    }
+                    else
+                    {
+                            Console.WriteLine("Entry can't have special character");
+                            return false;
+                    }
+                }
+            }
+            else
+            {
+                    Console.WriteLine("Entry can't be blank.");
+                    return false;
+            }
+            return true;
+        } //end Validation
 
         public static void InitialList (List<Movie> movieList)
         {
